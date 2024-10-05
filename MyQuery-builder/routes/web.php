@@ -39,7 +39,7 @@ Route::get('/', function () {
 Route::controller(PostController::class)->group(function () {
     Route::get("posts",'index')->name('posts.index');
     Route::get("posts/create","create")->name('posts.create');
-Route::get('posts/insert', "insert")->name('posts.insert');
+Route::post('posts/insert', "insert")->name('posts.insert');
 Route::get("posts/edit/{id}",'edit')->name('post.edit');
 Route::post("post/update/{id}",'update')->name('post.update');
 Route::get("post/delete/{id}",'delete')->name('post.delete');

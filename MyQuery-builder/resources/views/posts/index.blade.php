@@ -14,6 +14,7 @@
 
 <td><a class="btn btn-danger" href="{{route('posts.delete.all.truncate')}}" role="button">Delete All & Trancate</a>
 
+<td><a class="btn btn-primary" href="{{route('posts.create')}}" role="button">Creat Post</a>
 
 <table class="table">
     <thead>

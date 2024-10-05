@@ -2,7 +2,7 @@
     Create New Post
 </h1>
 
-<form action="{{route("post.insert")}}" method="post">
+<form action="{{route("posts.insert")}}" method="post">
 
     @csrf
 
